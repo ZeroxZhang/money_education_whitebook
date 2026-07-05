@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="850" viewBox="0 0 1600 850">
+  <style>
+    .title { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 24px; font-weight: bold; fill: #333333; }
+    .subtitle { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 16px; fill: #555555; }
+    .label { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 16px; fill: #333333; }
+    .num { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 15px; font-weight: bold; }
+    .source { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #888888; font-style: italic; }
+    .axis-label { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 14px; fill: #555555; }
+  </style>
+  <rect width="1600" height="850" fill="#FAFAFA"/>
+  
+  <!-- LEFT PANEL: 中产家庭教育支出结构 -->
+  <text x="400" y="40" text-anchor="middle" class="title">中产家庭教育支出结构</text>
+  <text x="400" y="68" text-anchor="middle" class="subtitle">（年人均教育支出约6,933元）</text>
+  
+  <!-- Left panel bars -->
+  <g transform="translate(80, 100)">
+    <!-- 学科补习 62.2% -->
+    <rect x="0" y="0" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="0" width="544" height="50" fill="#B87333" stroke="white" stroke-width="2"/>
+    <text x="-10" y="32" text-anchor="end" class="label">学科补习</text>
+    <text x="530" y="32" text-anchor="end" class="num" fill="white">62.2%</text>
+    
+    <!-- 才艺/素质培训 28.5% -->
+    <rect x="0" y="80" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="80" width="249" height="50" fill="#CD853F" stroke="white" stroke-width="2"/>
+    <text x="-10" y="112" text-anchor="end" class="label">才艺/素质培训</text>
+    <text x="235" y="112" text-anchor="end" class="num" fill="white">28.5%</text>
+    
+    <!-- 海外游学/留学预备 15.3% -->
+    <rect x="0" y="160" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="160" width="134" height="50" fill="#D4A574" stroke="white" stroke-width="2"/>
+    <text x="-10" y="192" text-anchor="end" class="label">海外游学/留学预备</text>
+    <text x="120" y="192" text-anchor="end" class="num" fill="white">15.3%</text>
+    
+    <!-- 教育类硬件/软件 8.7% -->
+    <rect x="0" y="240" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="240" width="76" height="50" fill="#8B6914" stroke="white" stroke-width="2"/>
+    <text x="-10" y="272" text-anchor="end" class="label">教育类硬件/软件</text>
+    <text x="62" y="272" text-anchor="end" class="num" fill="white">8.7%</text>
+    
+    <!-- 财商教育 0.8% -->
+    <rect x="0" y="320" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="320" width="7" height="50" fill="#E6C9A8" stroke="#A0522D" stroke-width="2"/>
+    <text x="-10" y="352" text-anchor="end" class="label">财商教育</text>
+    <text x="20" y="352" class="num" fill="#A0522D">0.8%</text>
+    
+    <!-- Annotation arrow -->
+    <line x1="30" y1="345" x2="180" y2="310" stroke="#A0522D" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="185" y="305" class="label" fill="#A0522D" font-weight="bold">系统性财商教育参与率不足1%</text>
+    
+    <!-- X axis -->
+    <line x1="0" y1="400" x2="700" y2="400" stroke="#CCCCCC" stroke-width="1"/>
+    <text x="0" y="425" text-anchor="middle" class="axis-label">0</text>
+    <text x="175" y="425" text-anchor="middle" class="axis-label">20</text>
+    <text x="350" y="425" text-anchor="middle" class="axis-label">40</text>
+    <text x="525" y="425" text-anchor="middle" class="axis-label">60</text>
+    <text x="700" y="425" text-anchor="middle" class="axis-label">80</text>
+    <text x="350" y="460" text-anchor="middle" class="axis-label">家庭参与比例 (%)</text>
+  </g>
+  
+  <!-- RIGHT PANEL: 青少年财商能力指标达标率 -->
+  <text x="1200" y="40" text-anchor="middle" class="title">青少年财商能力指标达标率</text>
+  
+  <g transform="translate(880, 100)">
+    <!-- 有理财规划意识: 25.4% -->
+    <rect x="0" y="0" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="0" width="178" height="50" fill="#B87333" stroke="white" stroke-width="2"/>
+    <rect x="178" y="0" width="522" height="50" fill="#E6C9A8" stroke="white" stroke-width="2"/>
+    <text x="-10" y="32" text-anchor="end" class="label">有理财规划意识</text>
+    <text x="89" y="32" text-anchor="middle" class="num" fill="white">25.4%</text>
+    
+    <!-- 通过劳动/任务换取零花钱: 17.0% -->
+    <rect x="0" y="80" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="80" width="119" height="50" fill="#B87333" stroke="white" stroke-width="2"/>
+    <rect x="119" y="80" width="581" height="50" fill="#E6C9A8" stroke="white" stroke-width="2"/>
+    <text x="-10" y="112" text-anchor="end" class="label">通过劳动/任务换取零花钱</text>
+    <text x="60" y="112" text-anchor="middle" class="num" fill="white">17.0%</text>
+    
+    <!-- 正确理解储蓄概念: 35.0% -->
+    <rect x="0" y="160" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="160" width="245" height="50" fill="#B87333" stroke="white" stroke-width="2"/>
+    <rect x="245" y="160" width="455" height="50" fill="#E6C9A8" stroke="white" stroke-width="2"/>
+    <text x="-10" y="192" text-anchor="end" class="label">正确理解储蓄概念</text>
+    <text x="122" y="192" text-anchor="middle" class="num" fill="white">35.0%</text>
+    
+    <!-- 了解复利原理: 57.0% -->
+    <rect x="0" y="240" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="240" width="399" height="50" fill="#B87333" stroke="white" stroke-width="2"/>
+    <rect x="399" y="240" width="301" height="50" fill="#E6C9A8" stroke="white" stroke-width="2"/>
+    <text x="-10" y="272" text-anchor="end" class="label">了解复利原理</text>
+    <text x="200" y="272" text-anchor="middle" class="num" fill="white">57.0%</text>
+    
+    <!-- 设立子女教育专项账户: 21.52% -->
+    <rect x="0" y="320" width="700" height="50" fill="#F0F0F0"/>
+    <rect x="0" y="320" width="151" height="50" fill="#B87333" stroke="white" stroke-width="2"/>
+    <rect x="151" y="320" width="549" height="50" fill="#E6C9A8" stroke="white" stroke-width="2"/>
+    <text x="-10" y="352" text-anchor="end" class="label">设立子女教育专项账户</text>
+    <text x="75" y="352" text-anchor="middle" class="num" fill="white">21.5%</text>
+    
+    <!-- X axis -->
+    <line x1="0" y1="400" x2="700" y2="400" stroke="#CCCCCC" stroke-width="1"/>
+    <text x="0" y="425" text-anchor="middle" class="axis-label">0</text>
+    <text x="175" y="425" text-anchor="middle" class="axis-label">25</text>
+    <text x="350" y="425" text-anchor="middle" class="axis-label">50</text>
+    <text x="525" y="425" text-anchor="middle" class="axis-label">75</text>
+    <text x="700" y="425" text-anchor="middle" class="axis-label">100</text>
+    <text x="350" y="460" text-anchor="middle" class="axis-label">比例 (%)</text>
+    
+    <!-- Legend -->
+    <rect x="100" y="480" width="20" height="15" fill="#B87333"/>
+    <text x="130" y="492" class="label">具备能力</text>
+    <rect x="300" y="480" width="20" height="15" fill="#E6C9A8"/>
+    <text x="330" y="492" class="label">不具备能力</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#A0522D"/>
+    </marker>
+  </defs>
+  
+  <!-- Source -->
+  <text x="800" y="820" text-anchor="middle" class="source">
+    数据来源：和讯网《2020中国儿童财富发展现状及未来》、家庭财商教育需求现状调查研究（2025）、艾瑞咨询《2016年中国中产家庭情况及教育现状》、中国家庭金融调查（CHFS 2019）
+  </text>
+</svg>
