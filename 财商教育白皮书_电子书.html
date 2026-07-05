@@ -57,6 +57,11 @@ html, body {
   transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
 }
 
+.page[hidden],
+.page:not(.active) {
+  display: none !important;
+}
+
 .page.active {
   display: flex;
   transform: translateX(0) rotateY(0deg);
